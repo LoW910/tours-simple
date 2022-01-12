@@ -43,6 +43,7 @@ function App() {
             <main>
                 <div className="title">
                     <h2>No Tours Left</h2>
+                    <div className="underline"></div>
                     <button className="btn" onClick={fetchTours}>
                         Refresh Tours
                     </button>
