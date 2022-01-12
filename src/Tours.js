@@ -1,7 +1,9 @@
-import React from 'react';
-import Tour from './Tour';
-const Tours = () => {
-  return <h2>tours component</h2>;
+import React from "react";
+import Tour from "./Tour";
+const Tours = ({ tours }) => {
+    const { id, name, info, image, price } = tours;
+
+    return;
 };
 
 export default Tours;
